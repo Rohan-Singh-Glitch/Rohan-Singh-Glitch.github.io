@@ -1,0 +1,402 @@
+body {
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(10, 25, 47);
+    color: rgb(136, 146, 176);
+    line-height: 1.3;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: rgb(204, 214, 246);
+    margin: 0px 0px 10px;
+}
+
+.kGQvoM {
+    display: flex;
+    flex-direction: column;
+    min-height: 2vh;
+}
+.cMxZHK {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    padding: 0px 50px;
+    background-color: rgb(10, 25, 47);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    z-index: 11;
+    width: 100%;
+    height: 100px;
+    box-shadow: none;
+    transform: translateY(0px);
+    filter: none !important;
+    pointer-events: auto !important;
+    user-select: auto !important;
+}
+.dmPDuE {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.bmLmit {
+    margin: 0px 10px;
+    position: relative;
+    font-size: 13px;
+    counter-increment: item 1;
+}
+.dMsozT {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    cursor: pointer;
+}
+.bomYhg {
+    padding: 12px 10px;
+}
+.itvZZh {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    outline: 0px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    transform: translateX(100vw);
+    visibility: hidden;
+    display: none;
+}
+.hdcEyF {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    color: rgb(204, 214, 246);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    counter-reset: item 0;
+    z-index: 12;
+}
+.iTSIqu {
+    color: rgb(100, 255, 218);
+    background-color: transparent;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    padding: 18px 50px;
+    margin: 10% auto 0px;
+    width: max-content;
+}
+.ibDRZH {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    width: 100%;
+}
+.eGjdUO {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(204, 214, 246);
+}
+.dOIyPL {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(23, 42, 69);
+    padding: 50px;
+    width: 50vw;
+    height: 100%;
+    position: relative;
+    right: 0px;
+    margin-left: auto;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    box-shadow: rgb(2 12 27 / 70%) -10px 0px 30px -15px;
+}
+.byoBZi {
+    color: rgb(100, 255, 218);
+    background-color: transparent;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 3px;
+    padding: 0.75rem 1rem;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    margin-left: 10px;
+    font-size: 13px;
+}
+/*left social media handles*/
+.gXnnBS {
+    width: 40px;
+    position: fixed;
+    bottom: 50px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: rgb(100, 255, 218);
+}
+
+.dgrnDt {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+/*right mail*/
+.lbtSgG {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: rgb(100, 255, 218);
+}
+.dvseSq {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+.gduzAh {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    letter-spacing: 0.1em;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 9px;
+}
+
+.esuDqr {
+    padding: 10px;
+}
+/*image*/
+.first{
+    margin: auto;
+}
+
+/*content*/
+.rpFlT {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+.eyxjBQ {
+    margin: 0px auto;
+    padding: 150px 0px;
+    max-width: 1000px;
+}
+.iWAmFy {
+    color: rgb(100, 255, 218);
+    margin: 0px 0px 20px 3px;
+    font-size: 18px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", "Monaco", monospace;
+    font-weight: normal;
+}
+.eKyqrA {
+    font-size: 80px;
+    line-height: 1.1;
+    margin: 0px;
+}
+.fOCNiY {
+    font-size: 80px;
+    line-height: 1.1;
+    color: rgb(136, 146, 176);
+}
+.rpFlT div {
+    width: 100%;
+}
+.kNHpIZ {
+    margin-top: 25px;
+    width: 50%;
+    max-width: 500px;
+}
+.irOxPF {
+    color: rgb(100, 255, 218);
+    background-color: transparent;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 3px;
+    padding: 1.25rem 1.75rem;
+    font-size: 14px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    margin-top: 50px;
+}
+/*about me */
+.gRQVKa {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 10px 0px 40px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 32px;
+}
+.hxTChw {
+    padding: 200px 150px;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+}
+.hyCwCz {
+    counter-reset: section 0;
+}
+.bTjbKk {
+    position: relative;
+}
+.gRQVKa {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 10px 0px 40px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 32px;
+}
+::before, ::after {
+    box-sizing: inherit;
+}
+.gPMcds {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: flex-start;
+}
+.gczqHA {
+    width: 60%;
+    max-width: 480px;
+}
+.ZXYSw {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    list-style: none;
+}
+.hNIbjN {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 13px;
+    color: rgb(100, 255, 218);
+}
+/*picture*/
+.gRQVKa {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 10px 0px 40px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 32px;
+}
+.gPMcds {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: flex-start;
+}
+.gczqHA {
+    width: 60%;
+    max-width: 480px;
+}
+.dMKnMQ {
+    position: relative;
+    width: 40%;
+    max-width: 300px;
+    margin-left: 60px;
+}
+.ddDFGp {
+    box-shadow: rgb(2 12 27 / 70%) 0px 10px 30px -15px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    width: 100%;
+    position: relative;
+    border-radius: 3px;
+    background-color: rgb(204, 214, 246);
+    margin-left: -20px;
+}
+.flgZBp {
+    position: relative;
+    mix-blend-mode: multiply;
+    filter: grayscale(100%) contrast(1);
+    border-radius: 3px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+div {
+    display: block;
+}
+::selection {
+    background-color: rgb(136, 146, 176);
+    color: rgb(204, 214, 246);
+}
+ h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+main {
+    display: block;
+}
+
